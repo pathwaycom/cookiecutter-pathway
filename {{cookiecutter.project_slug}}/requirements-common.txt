@@ -1,0 +1,4 @@
+black
+pathway
+python-dotenv
+pydantic

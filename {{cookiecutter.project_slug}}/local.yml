@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  pathway_app:
+    build:
+      context: .
+      args:
+        BUILD_ENVIRONMENT: dev
+    environment:
+      INPUT_CONNECTOR: python
+      PATHWAY_THREADS: 1
+    volumes:
+      - .:/{{cookiecutter.project_slug}}

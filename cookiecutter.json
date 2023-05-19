@@ -1,0 +1,9 @@
+{
+  "project_name": "My Pathway App",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "prod_input": [
+    "kafka",
+    "redpanda"
+  ],
+  "topic_name": "{{ cookiecutter.project_slug }}"
+}
