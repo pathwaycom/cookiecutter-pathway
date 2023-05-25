@@ -22,7 +22,7 @@ First, get Cookiecutter.
 
 Now run it against this repo:
 
-    $ cookiecutter https://github.com/pathway/cookiecutter-pathway
+    $ cookiecutter https://github.com/pathwaycom/cookiecutter-pathway
 
 You'll be prompted for some values. Provide them, then a Pathway project will be created for you.
 Enter the generated directory, read the README.md and start developing!
