@@ -1,3 +1,20 @@
+<div align="center">
+  <img src="https://pathway.com/logo-light.svg" /><br /><br />
+</div>
+<p align="center">
+    <a href="https://github.com/pathwaycom/cookiecutter-pathway/blob/main/LICENSE">
+        <img src="https://img.shields.io/github/license/pathwaycom/cookiecutter-pathway?style=plastic" alt="Contributors"/></a>
+        <img src="https://img.shields.io/badge/OS-Linux-green" alt="Linux"/>
+        <img src="https://img.shields.io/badge/OS-macOS-green" alt="macOS"/>
+      <br>
+    <a href="https://discord.gg/pathway">
+        <img src="https://img.shields.io/discord/1042405378304004156?logo=discord"
+            alt="chat on Discord"></a>
+    <a href="https://twitter.com/intent/follow?screen_name=pathway_com">
+        <img src="https://img.shields.io/twitter/follow/pathway_com?style=social&logo=twitter"
+            alt="follow on Twitter"></a>
+</p>
+
 # Cookiecutter Pathway
 
 Powered by [Cookiecutter](https://github.com/cookiecutter/cookiecutter), Cookiecutter Pathway is a framework for jumpstarting
