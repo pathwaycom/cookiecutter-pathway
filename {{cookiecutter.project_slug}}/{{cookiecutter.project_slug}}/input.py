@@ -26,7 +26,7 @@ def input():
         }
         return pw.io.{{cookiecutter.prod_input}}.read(
             rdkafka_settings,
-            topic_names=[get_settings().{{cookiecutter.prod_input}}_topic],
+            topic=get_settings().{{cookiecutter.prod_input}}_topic,
             value_columns=value_columns,
             format=format,
             types=types,
