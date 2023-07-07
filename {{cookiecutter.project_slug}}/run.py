@@ -12,4 +12,4 @@ if __name__ == "__main__":
     output_table = pipeline(input_table)
     output(output_table)
 
-    pw.run(stats_monitoring_level=pw.StatsMonitoringLevel.ALL)
+    pw.run(monitoring_level=pw.MonitoringLevel.ALL)
