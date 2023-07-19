@@ -13,9 +13,10 @@ class InfiniteStream(pw.io.python.ConnectorSubject):
 
 
 def input():
-    format = "json"
-    value_columns = ["value"]
-    types = {"value": pw.Type.INT}
+    class InputSchema(pw.Schema):
+        value: int
+
+    format="json"
 
     if get_settings().input_connector == "{{cookiecutter.prod_input}}":
         rdkafka_settings = {
@@ -27,16 +28,14 @@ def input():
         return pw.io.{{cookiecutter.prod_input}}.read(
             rdkafka_settings,
             topic=get_settings().{{cookiecutter.prod_input}}_topic,
-            value_columns=value_columns,
+            schema=InputSchema,
             format=format,
-            types=types,
             autocommit_duration_ms=get_settings().autocommit_duration_ms,
         )
     elif get_settings().input_connector == "python":
         return pw.io.python.read(
             InfiniteStream(),
-            value_columns=value_columns,
+            schema=InputSchema,
             format=format,
-            types=types,
             autocommit_duration_ms=get_settings().autocommit_duration_ms,
         )
