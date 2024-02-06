@@ -1,4 +1,5 @@
 black
 pathway
 python-dotenv
-pydantic == 1
+pydantic >= 2
+pydantic-settings
