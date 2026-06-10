@@ -15,10 +15,10 @@
             alt="follow on Twitter"></a>
 </p>
 
-# Cookiecutter Pathway
+# Cookiecutter Pathway Live Data Framework
 
-Powered by [Cookiecutter](https://github.com/cookiecutter/cookiecutter), Cookiecutter Pathway is a framework for jumpstarting
-production-ready Pathway projects quickly.
+Powered by [Cookiecutter](https://github.com/cookiecutter/cookiecutter), Cookiecutter Pathway Live Data Framework is a framework for jumpstarting
+production-ready Pathway Live Data Framework projects quickly.
 
 ## Features
 
@@ -41,5 +41,5 @@ Now run it against this repo:
 
     $ cookiecutter https://github.com/pathwaycom/cookiecutter-pathway
 
-You'll be prompted for some values. Provide them, then a Pathway project will be created for you.
+You'll be prompted for some values. Provide them, then a Pathway Live Data Framework project will be created for you.
 Enter the generated directory, read the README.md and start developing!

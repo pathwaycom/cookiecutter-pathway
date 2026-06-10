@@ -7,8 +7,8 @@ Define your custom logic in `{{cookiecutter.project_slug}}/pipeline.py`. It alre
 
 You can test it in the following modes:
 
-- [debug (batch mode)] run your Pathway app code with pytest with `docker compose -f local.yml run --rm pathway_app pytest`
-- [streaming] run your Pathway app `docker compose -f local.yml up`. Modify `InfiniteStream` in `{{cookiecutter.project_slug}}/input.py` to feed it with different data. The results are streamed to the `output.csv` file (you can change this in `{{cookiecutter.project_slug}}/output.py`)
+- [debug (batch mode)] run your Pathway Live Data Framework app code with pytest with `docker compose -f local.yml run --rm pathway_app pytest`
+- [streaming] run your Pathway Live Data Framework app `docker compose -f local.yml up`. Modify `InfiniteStream` in `{{cookiecutter.project_slug}}/input.py` to feed it with different data. The results are streamed to the `output.csv` file (you can change this in `{{cookiecutter.project_slug}}/output.py`)
 
 # Production environment
 
